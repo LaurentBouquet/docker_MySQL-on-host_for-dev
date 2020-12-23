@@ -7,5 +7,5 @@
 
 [Creating new Symfony project containers](symfony-project/)
 
-[Creating Joliquiz containers](joliquiz/)
+[Creating Joliquiz containers](joliquiz-project/)
 

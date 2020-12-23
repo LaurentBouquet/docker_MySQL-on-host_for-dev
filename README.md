@@ -1,4 +1,4 @@
-# Start Docker containers with locale MySQL database
+# Docker containers with locale MySQL database
 
 [Creating new project containers](project/README.md)
 

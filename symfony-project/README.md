@@ -9,8 +9,8 @@
 
 ```yaml
 DATABASE_ROOT_PASSWORD=secret
-DATABASE_NAME=joliquiz
-DATABASE_USER=joliquiz
+DATABASE_NAME=project
+DATABASE_USER=project
 DATABASE_PASSWORD=dbpassword
 ```
 
@@ -22,22 +22,21 @@ Create locale MySQL database
 with same information as .env file :
 
 ```sql
-CREATE USER 'joliquiz'@'localhost' IDENTIFIED BY 'dbpassword';
-CREATE DATABASE joliquiz CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
-GRANT ALL PRIVILEGES ON joliquiz.* TO 'joliquiz'@'localhost';
+CREATE USER 'project'@'localhost' IDENTIFIED BY 'dbpassword';
+CREATE DATABASE project CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
+GRANT ALL PRIVILEGES ON project.* TO 'project'@'localhost';
 ```
 
 
 
 
-## Starting JoliQuiz's containers
+## Starting project's containers
 
-cd docker
-docker-compose -p "joliquiz" up -d
+docker-compose -p "project" up -d
 
 To enter into PHP container : 
 ```sh
-docker exec -it joliquiz-php /bin/sh
+docker exec -it project-php /bin/sh
 ```
 
 To download and install Composer packages : 
@@ -61,7 +60,7 @@ php bin/console server:start
 
 
 
-## Testing JoliQuiz software
+## Testing project software
 
 1. Open http://localhost:8080 with your web browser
 2. Click on **Login** link

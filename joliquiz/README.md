@@ -32,7 +32,6 @@ GRANT ALL PRIVILEGES ON joliquiz.* TO 'joliquiz'@'localhost';
 
 ## Starting JoliQuiz's containers
 
-cd docker
 docker-compose -p "joliquiz" up -d
 
 To enter into PHP container : 

@@ -1,0 +1,2 @@
+172.19.0.1 - nagiosadmin [23/Dec/2020:14:47:30 +0000] "GET / HTTP/1.1" 404 27 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:83.0) Gecko/20100101 Firefox/83.0"
+172.19.0.1 - nagiosadmin [23/Dec/2020:14:47:30 +0000] "GET /favicon.ico HTTP/1.1" 499 0 "http://localhost:8080/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:83.0) Gecko/20100101 Firefox/83.0"

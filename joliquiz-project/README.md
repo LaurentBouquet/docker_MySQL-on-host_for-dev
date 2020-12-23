@@ -44,6 +44,7 @@ GRANT ALL PRIVILEGES ON joliquiz.* TO 'joliquiz'@'localhost';
 DATABASE_URL=mysql://joliquiz:dbpassword@host.docker.internal:3306/joliquiz
 ```
 
+5. cd ..
 
 
 

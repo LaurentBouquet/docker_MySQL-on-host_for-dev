@@ -1,6 +1,12 @@
 # Documentation to start Docker containers with locale MySQL database
 
 
+## Clone repository
+git clone https://github.com/owner/repo.git
+
+
+
+
 ## Setting environnement variables
 
 1. copy .env.exemple to .env

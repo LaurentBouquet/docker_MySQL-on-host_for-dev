@@ -1,4 +1,6 @@
-# Docker containers with locale MySQL database
+# Docker containers with MySQL database in the host
+
+PHP and Nginx containers connected to host MySQL server with Docker Compose
 
 
 [Creating new PHP project containers](php-project/)

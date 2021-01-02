@@ -1,5 +1,6 @@
-# Documentation to start Docker containers with locale MySQL database
+# Documentation to start Docker containers with MySQL database in the host
 
+PHP and Nginx containers connected to host MySQL server with Docker Compose
 
 
 ## Setting environnement variables
